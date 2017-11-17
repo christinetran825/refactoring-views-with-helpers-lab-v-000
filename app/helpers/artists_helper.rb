@@ -1,5 +1,5 @@
 module ArtistsHelper
-  def method_name(artist)
-    
+  def display_artist(artist)
+    artist
   end
 end
