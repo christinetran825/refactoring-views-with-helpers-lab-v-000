@@ -8,5 +8,6 @@ class Song < ActiveRecord::Base
     artist_name.each do |name|
       artist = Artist.find_or_create_by(name)
       self.artists << artist
+    end
   end
 end
